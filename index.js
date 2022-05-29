@@ -1,7 +1,7 @@
-const chunk = require('./chunk');
-const concat = require('./concat');
-const compact = require('./compact');
-const difference = require('./difference');
+const chunk = require('./Array/chunk');
+const concat = require('./Array/concat');
+const compact = require('./Array/compact');
+const difference = require('./Array/difference');
 
 const arr1 = [1,2,3,4,5,6,7];
 
@@ -10,4 +10,4 @@ const num = 3;
 
 
 // console.log(chunk(arr1,num));
-console.log(difference(arr1,arr2));
+// console.log(difference(arr1,arr2));
