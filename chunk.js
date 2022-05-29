@@ -1,5 +1,5 @@
 const chunk = (arr, num) => {
-  console.log(arguments.length);
+  // console.log(arguments.length);
 
   const temp = [...arr];
   const numberOfArray = Math.ceil(temp.length / num);
@@ -21,4 +21,4 @@ const chunk = (arr, num) => {
   //console.log(temp);
   return result;
 };
-console.log(chunk([1, 2, 3, 4], 3));
+module.exports = chunk;

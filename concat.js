@@ -12,5 +12,4 @@ function concat(arr) {
   }
   return result;
 }
-const array = [1, 2, 3, 4, 5, 6];
-console.log(concat(array, 2, [3, 4, 33, 2, 53, 64], [[4]]));
+module.exports = concat;
