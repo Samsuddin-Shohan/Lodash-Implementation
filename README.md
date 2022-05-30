@@ -15,4 +15,10 @@ DifferenceBy - This method is like Difference except this methods can take Float
 
 DifferenceWith - This method is like Difference except it takes array of objects as arguments.
 
+Drop - Creates a slice of array with n elements dropped from the beginning.
+
+DropRight - Creates a slice of array with n elements dropped from the end.
+
+
+
 
